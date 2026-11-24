@@ -4,6 +4,12 @@ Guía web de referencia sobre Git y GitHub, desarrollada como proyecto académic
 
 El objetivo es practicar los fundamentos de control de versiones, comprender los comandos esenciales de Git y documentar la evolución de un proyecto mediante commits.
 
+## Demo en vivo
+
+Visita la guía publicada mediante GitHub Pages:
+
+https://ozkr464-beep.github.io/henry-git-handbook/
+
 ## Tecnologías utilizadas
 
 - HTML5
