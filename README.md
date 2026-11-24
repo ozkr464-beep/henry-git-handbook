@@ -4,6 +4,18 @@ Guía web de referencia sobre Git y GitHub, desarrollada como proyecto académic
 
 El objetivo es practicar los fundamentos de control de versiones, comprender los comandos esenciales de Git y documentar la evolución de un proyecto mediante commits.
 
+
+## Biblioteca de aprendizaje
+
+Esta biblioteca complementa la guía web con apuntes
+de la clase L3 de Git, GitHub y Control de Versiones.
+
+### Índice de documentación
+
+- [Conceptos básicos de Git](./docs/conceptos-git.md)
+- [Comandos esenciales de Git](./docs/comandos-git.md)
+
+
 ## Demo en vivo
 
 Visita la guía publicada mediante GitHub Pages:
