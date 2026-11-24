@@ -1,25 +1,120 @@
 
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+          content="Guía de comandos esenciales de Git y GitHub para desarrolladores principiantes.">
+
     <title>Git Developer Handbook</title>
 </head>
+
 <body>
+
     <header>
         <h1>Git Developer Handbook</h1>
-        <p>Mi guía de Git y GitHub para aprender control de versiones.</p>
+
+        <p>
+            Mi guía de Git y GitHub para aprender
+            control de versiones.
+        </p>
     </header>
 
     <main>
+
+        <!-- INTRODUCCIÓN -->
+
         <section>
             <h2>¿Qué es Git?</h2>
+
             <p>
                 Git es un sistema de control de versiones que permite
                 registrar cambios y consultar el historial de un proyecto.
             </p>
         </section>
+
+        <!-- COMANDOS ESENCIALES -->
+
+        <section>
+            <h2>Comandos esenciales de Git</h2>
+
+            <h3>git init</h3>
+
+            <p>
+                Inicializa un repositorio Git en la carpeta actual.
+            </p>
+
+            <pre><code>git init</code></pre>
+
+            <h3>git status</h3>
+
+            <p>
+                Muestra el estado de los archivos del repositorio.
+            </p>
+
+            <pre><code>git status</code></pre>
+
+            <h3>git add</h3>
+
+            <p>
+                Prepara archivos para incluirlos en el próximo commit.
+            </p>
+
+            <pre><code>git add index.html</code></pre>
+
+            <h3>git commit</h3>
+
+            <p>
+                Registra los cambios preparados en el historial local.
+            </p>
+
+            <pre><code>git commit -m "feat: agregar contenido"</code></pre>
+
+            <h3>git log</h3>
+
+            <p>
+                Permite consultar el historial de commits.
+            </p>
+
+            <pre><code>git log --oneline</code></pre>
+
+            <h3>git remote</h3>
+
+            <p>
+                Permite configurar y consultar las conexiones
+                con repositorios remotos.
+            </p>
+
+            <pre><code>git remote -v</code></pre>
+
+            <h3>git push</h3>
+
+            <p>
+                Envía los commits locales al repositorio remoto.
+            </p>
+
+            <pre><code>git push</code></pre>
+
+            <h3>git pull</h3>
+
+            <p>
+                Obtiene e integra cambios de un repositorio remoto
+                en la rama local.
+            </p>
+
+            <pre><code>git pull</code></pre>
+
+        </section>
+
     </main>
+
+    <footer>
+        <p>
+            Git Developer Handbook | Soy Henry | 2026
+        </p>
+    </footer>
+
 </body>
 </html>
