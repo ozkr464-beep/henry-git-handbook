@@ -1,0 +1,142 @@
+
+/* ========================================
+   GIT DEVELOPER HANDBOOK
+   Soy Henry — Homework L3
+   ======================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --color-primario: hsl(220, 65%, 35%);
+    --color-secundario: hsl(250, 55%, 45%);
+    --color-fondo: hsl(220, 25%, 96%);
+    --color-texto: hsl(220, 20%, 20%);
+    --color-blanco: #ffffff;
+    --color-codigo: #172033;
+    --color-borde: hsl(220, 20%, 85%);
+}
+
+body {
+    margin: 0;
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    line-height: 1.7;
+}
+
+/* ENCABEZADO */
+
+header {
+    background: linear-gradient(
+        135deg,
+        var(--color-primario),
+        var(--color-secundario)
+    );
+    color: var(--color-blanco);
+    text-align: center;
+    padding: 64px 20px;
+}
+
+header h1 {
+    font-size: clamp(2rem, 5vw, 3rem);
+    margin: 0 0 12px;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+/* CONTENIDO PRINCIPAL */
+
+main {
+    width: min(100% - 32px, 900px);
+    margin: 40px auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+/* SECCIONES */
+
+section {
+    background-color: var(--color-blanco);
+    border: 1px solid var(--color-borde);
+    border-radius: 12px;
+    padding: 28px;
+
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+}
+
+section h2 {
+    margin-top: 0;
+    color: var(--color-primario);
+    font-size: 1.6rem;
+}
+
+section h3 {
+    margin-top: 28px;
+    margin-bottom: 8px;
+    color: var(--color-secundario);
+}
+
+section p {
+    margin-top: 0;
+}
+
+/* BLOQUES DE COMANDOS */
+
+pre {
+    background-color: var(--color-codigo);
+    color: #e2e8f0;
+    padding: 16px 20px;
+    border-radius: 8px;
+    overflow-x: auto;
+    line-height: 1.5;
+}
+
+code {
+    font-family: Consolas, "Courier New", monospace;
+    font-size: 0.95rem;
+}
+
+/* PIE DE PÁGINA */
+
+footer {
+    text-align: center;
+    background-color: var(--color-codigo);
+    color: var(--color-blanco);
+    padding: 24px 16px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* DISEÑO RESPONSIVE */
+
+@media (max-width: 600px) {
+    header {
+        padding: 40px 16px;
+    }
+
+    main {
+        margin: 24px auto;
+        gap: 16px;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    section h2 {
+        font-size: 1.35rem;
+    }
+
+    pre {
+        padding: 14px;
+    }
+}
